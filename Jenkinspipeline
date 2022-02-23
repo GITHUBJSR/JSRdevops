@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello welcome to World'
+            }
+        }
+        stage('Jenkinsample') {
+            steps {
+                echo 'This is sample groovy script for jenkins p[ipeline to test'
+                
+            }
+        }
+    }
+}
